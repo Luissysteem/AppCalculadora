@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        form{
+            display: grid;
+            justify-content: center;
+        }
+
+        input{
+            margin: 10px;
+            padding: 10px;
+        }
+        #button-space{
+            display: grid;
+            justify-content: center;
+        }
+        button{
+            margin-top: 10px;
+            padding: 20px;
+            align-content: center;
+            background-color: rgb(60, 127, 190);
+            color: white;
+            text-transform: uppercase;
+            width: 200px;
+        }
+        #mostrar{
+            margin-top: 20px;
+            text-transform: capitalize;
+            max-width: 200px;
+        }
+    </style>
+    
+    <h1>Calculadora</h1>
+
+    <form action="" id="Formulario">
+        <label for="">Ingresar Valor 1</label>
+        <input type="number" name="" id="uno">
+        <label for="">Ingresar Valor 2</label>
+        <input type="number" name="" id="dos">
+    </form>
+
+    <div id="button-space">
+        <button onclick="sumar()">Calcular</button>
+
+        <div id="mostrar"></div>
+    </div>
+
+
+    <script src="/app.js"></script>
+
+
+
+
+</body>
+</html>
